@@ -17,3 +17,6 @@ plt.ylabel('Amount')
 plt.legend()
 
 plt.show()
+
+# mats kunst
+# dit-is-mijn-wachtwoord
