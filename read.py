@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 
 data = pd.read_csv('data.csv')
 
-user_input = input("Enter an ID: ").lower()
+try:
+    user_input = int(input("Enter an ID: "))
+except ValueError():
+    print("Please enter a valid input.")
 
 filtered_data = data[data['id'] == user_input]
 
@@ -17,6 +20,3 @@ plt.ylabel('Amount')
 plt.legend()
 
 plt.show()
-
-# mats kunst
-# dit-is-mijn-wachtwoord
