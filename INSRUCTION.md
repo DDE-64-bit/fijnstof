@@ -19,7 +19,7 @@ Als eerste moet je naar de officiele website van [python](https://python.org/), 
 
 ### Bibliotheken
 
-Nu gaan we de bibliotheken downloaden met alle informatie die je computer nodig heeft om het porgramma te openen. Nu druk je op je toesenbord: 'windows' en de 'r' knop in
+Nu gaan we de bibliotheken downloaden met alle informatie die je computer nodig heeft om het porgramma te openen. Nu druk je op je toesenbord: 'windows' en de 'r' knop in. Er opend een programma links onder in je scherm, je drukt op de tekst die er al in staat en dan type je er 'cmd' in. Als het goed is heb je nu een soort zwart schermpje open met wat witte letters. Type dan de onderstaande code over in dat programmen en druk dan op enter.
 
 ```` terminal
 pip install pandas matplotlib
