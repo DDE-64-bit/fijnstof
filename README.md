@@ -22,9 +22,10 @@ The script will prompt you to enter an ID for the air quality data you wish to a
 
 The script performs the following cleaning and transformation steps on the air quality data:
 
-* Copies the original CSV file to a new file named data.csv.
-* Reads the data from data.csv into a Pandas DataFrame.
+* Copies the original **CSV** file to a new file named **data.csv**.
+* Reads the data from **data.csv** into a **Pandas** **DataFrame**.
 * Prompts the user to enter an ID for the data they wish to analyze.
-* Rounds the time values in the DataFrame to the nearest 10 minutes.
-* *xtracts the last part of the ID string from the first column in the DataFrame.
-* Filters the DataFrame to only include rows with the specified ID.
+* Rounds the time values in the **DataFrame** to the nearest 10 minutes.
+* *xtracts the last part of the ID string from the first column in the **DataFrame**.
+* Filters the **DataFrame** to only include rows with the specified ID.
+
