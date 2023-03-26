@@ -24,3 +24,5 @@ Nu gaan we de bibliotheken downloaden met alle informatie die je computer nodig 
 ```` terminal
 pip install pandas matplotlib
 ````
+
+Schrik niet er hoort dat er veel op je scherm gebeurd.
