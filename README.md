@@ -13,7 +13,7 @@ pip install pandas matplotlib
 Once you have **Python** and the necessary libraries installed, you can run the script using the following command:
 
 ```` terminal
-python main.py
+python read.py
 ````
 
 The script will prompt you to enter an ID for the air quality data you wish to analyze. Once you have entered a valid ID, the script will read the data from a **CSV** file, clean and transform the data, and plot a graph of the data for the specified ID.

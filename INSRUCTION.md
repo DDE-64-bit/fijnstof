@@ -11,5 +11,16 @@ Dit programma gebruikt 3 onderdelen, het programma is gemaakt in python, dus je 
 
 ## Instaleren
 
-Als eerste moet je naar de officiele website van [python](https://python.org/), dan zoek in de blauwe balk de knop downloads. Dan klik op de gele knop waarop staat: Download Python 3.\*.\*, wat er op de plaats van de sterretjes staat maakt niet heel veel uit. Dan open het bestand, dan kom je in een menu, dan moet je de bovenste optie kiezen, loop dan door de instalatie. Kies alles wat jij wilt of kan op jouw computer, het maakt niet heel veel uit wat je kiest. Daarna kan je in de zoekbalk naast het windows logo. zoek dan op 'pyhon', dan zie je als het goed is staan: Python 3.\*.\* (**-bit). Bij de eeste 2 sterretjes staat er als het goed is hetzelfde als wat er stond op de gele knop op de website. Bij de 3e en 4e sterretje staat er of 32 of 64.
+Nu gaan we alle benodigdheden downloaden.
 
+### Python
+
+Als eerste moet je naar de officiele website van [python](https://python.org/), dan zoek in de blauwe balk de knop downloads. Dan klik op de gele knop waarop staat: Download Python 3.\*.\*, wat er op de plaats van de sterretjes staat maakt niet heel veel uit. Dan open het bestand, dan kom je in een menu, dan moet je de bovenste optie kiezen, loop dan door de instalatie. Kies alles wat jij wilt of kan op jouw computer, het maakt niet heel veel uit wat je kiest. Daarna kan je in de zoekbalk naast het windows logo. zoek dan op 'pyhon', dan zie je als het goed is staan: Python 3.\*.\* (**-bit). Bij de eeste 2 sterretjes staat er als het goed is hetzelfde als wat er stond op de gele knop op de website. Bij de 3e en 4e sterretje staat er of 32 of 64. Open dat programma.
+
+### Bibliotheken
+
+Nu gaan we de bibliotheken downloaden met alle informatie die je computer nodig heeft om het porgramma te openen. Als je het programma python hebt geopend dan kan je de onderstaande code in typen of kopieren.
+
+```` terminal
+pip install pandas matplotlib
+````
