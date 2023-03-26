@@ -26,6 +26,9 @@ The script performs the following cleaning and transformation steps on the air q
 * Reads the data from **data.csv** into a **Pandas** **DataFrame**.
 * Prompts the user to enter an ID for the data they wish to analyze.
 * Rounds the time values in the **DataFrame** to the nearest 10 minutes.
-* *xtracts the last part of the ID string from the first column in the **DataFrame**.
+* Extracts the last part of the ID string from the first column in the **DataFrame**.
 * Filters the **DataFrame** to only include rows with the specified ID.
 
+## Visualization
+
+Once the data has been cleaned and transformed, the script plots a graph of the data using **Matplotlib**. The graph shows the amount of different air pollutants (**pm1**, **pm2.5**, **pm4**, and **pm10**) over time.
