@@ -11,4 +11,4 @@ Dit programma gebruikt 3 onderdelen, het programma is gemaakt in python, dus je 
 
 ## Instaleren
 
-Als eerste moet je naar de officiele website van [python](https://python.org/)
+Als eerste moet je naar de officiele website van <a href="https://python.org/" target="_blank">python</a>
