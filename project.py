@@ -29,7 +29,7 @@ def getId():
     except:
         print("Something went terribly wrong")
 
-def main(userInput):
+def main():
     fileCopie()
     getId()
     changeData()
