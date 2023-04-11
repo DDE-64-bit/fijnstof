@@ -4,10 +4,10 @@ import csv
 import shutil
 
 def fileCopie():
-    shutil.copyfile('main.csv', 'data.csv')
+    shutil.copyfile('./data/main.csv', './data/data.csv')
 
 def changeData():
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('./data/data.csv')
 
     df['Time'] = df['Time'].str.split().str[1]
 
@@ -17,11 +17,11 @@ def changeData():
 
     df.to_csv('data.csv', index=False)
 
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('./data/data.csv')
 
     df.iloc[:, 0] = df.iloc[:, 0].apply(lambda x: x.split()[-1])
 
-    df.to_csv('data.csv', index=False)
+    df.to_csv('./data/data.csv', index=False)
 
 def getId():
     try:
@@ -36,7 +36,7 @@ def main():
     
     user_input = input("Enter an ID: ")
     
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('./data/data.csv')
     
     filtered_data = data[data['id'] == user_input]
 

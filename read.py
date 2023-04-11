@@ -3,17 +3,17 @@ import matplotlib.pyplot as plt
 import csv
 import shutil
 
-shutil.copyfile('main.csv', 'data.csv')
+shutil.copyfile('./data/main.csv', './data/data.csv')
 
 try:
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('./data/data.csv')
 
     try:
         user_input = int(input("Enter an ID: "))
     except ValueError():
         print("Please enter a valid input.")
 
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('./data/data.csv')
 
     df['Time'] = df['Time'].str.split().str[1]
 
@@ -21,13 +21,13 @@ try:
 
     df['Time'] = df['Time'].dt.round('10min')
 
-    df.to_csv('data.csv', index=False)
+    df.to_csv('./data/data.csv', index=False)
 
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('./data/data.csv')
 
     df.iloc[:, 0] = df.iloc[:, 0].apply(lambda x: x.split()[-1])
 
-    df.to_csv('data.csv', index=False)
+    df.to_csv('./data/data.csv', index=False)
 
 
     filtered_data = data[data['id'] == user_input]
