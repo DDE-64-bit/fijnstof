@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
-import shutils
+import shutil
 
 def fileCopie():
-    shutils.copyfile('main.csv', 'data.csv')
+    shutil.copyfile('main.csv', 'data.csv')
 
 def changeData():
     df = pd.read_csv('data.csv')
