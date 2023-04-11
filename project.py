@@ -25,13 +25,30 @@ def changeData():
 
 def getId():
     try:
-        user_input = input("Enter an ID: ")
-        return user_input
+        print("loading data...")
     except:
         print("Something went terribly wrong")
 
-def main():
+def main(userInput):
     fileCopie()
     getId()
     changeData()
     
+    user_input = input("Enter an ID: ")
+    
+    data = pd.read_csv('data.csv')
+    
+    filtered_data = data[data['id'] == user_input]
+
+    plt.plot(filtered_data['Time'], filtered_data['pm1'], label='pm 1')
+    plt.plot(filtered_data['Time'], filtered_data['pm2.5'], label='pm 2.5')
+    plt.plot(filtered_data['Time'], filtered_data['pm4'], label='pm 4')
+    plt.plot(filtered_data['Time'], filtered_data['pm10'], label='pm 10')
+
+    plt.xlabel('Time')
+    plt.ylabel('Amount')
+    plt.legend()
+
+    plt.show()
+
+main()
