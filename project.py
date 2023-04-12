@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import csv
 import shutil
 
 def fileCopie():
